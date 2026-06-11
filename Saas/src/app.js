@@ -12,7 +12,7 @@ const salesRoutes = require('./routes/sales.routes');
 
 const app = express();
 const allowedOrigins = [
-    'http://localhost:5173',
+    'https://pos-frontend-z0ew.onrender.com',
     'http://localhost:5174',
     process.env.FRONTEND_URL,
 ].filter(Boolean);
