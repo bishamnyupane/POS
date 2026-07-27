@@ -30,6 +30,5 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173
 
 The Vite dev server proxies `/api` to `http://localhost:3000`. CORS is enabled on the backend for `http://localhost:5173`.
